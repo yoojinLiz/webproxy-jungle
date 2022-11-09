@@ -1,7 +1,21 @@
 <html>
-<head><title>test</title></head>
+<head><title>Yoojin's Web Server </title></head>
 <body> 
-<img align="middle" src="godzilla.gif">
-Dave O'Hallaron
+<h1>Static content </h1>
+<img align="middle" width="20" height="20" src="godzilla.jpg">
+<img align="middle" src="jungle_yujin_run.gif">
+<br>
+<video height="150" width="200" controls>
+    <source src="/red.mp4">
+</video>
+<br>
+<h1>Dynamic content </h1>
+<form method= "GET" action="/cgi-bin/adder">
+    <input type="text" name ="a" placeholder="Put a numeric value 1 ">
+    <input type="text" name= "b" placeholder="Put a numeric value 2 ">
+    <input type="submit" value= "Add">
+</form>
+<br>
+
 </body>
 </html>
